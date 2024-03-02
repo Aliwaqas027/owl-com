@@ -1,0 +1,27 @@
+version: "3.1"
+
+services:
+  db:
+    image: postgres:12.4
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_DB=owl
+      - POSTGRES_USER=owl
+      - POSTGRES_PASSWORD=owl
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: t@t.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    volumes:
+      - pgadmin:/root/.pgadmin
+    ports:
+      - "9002:80"
+
+volumes:
+  postgres-data:
+  pgadmin:

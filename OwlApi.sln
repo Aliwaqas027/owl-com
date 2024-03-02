@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OwlApi", "OwlApi.csproj", "{4DB9168D-4A98-46BE-98DF-65B65420A066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB9168D-4A98-46BE-98DF-65B65420A066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB9168D-4A98-46BE-98DF-65B65420A066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB9168D-4A98-46BE-98DF-65B65420A066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB9168D-4A98-46BE-98DF-65B65420A066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD69D635-7197-40E0-AF14-056E1940A6B8}
+	EndGlobalSection
+EndGlobal
